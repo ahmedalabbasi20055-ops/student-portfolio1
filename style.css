@@ -1,0 +1,142 @@
+/* Global Base Reset & Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+
+/* Main Headings Styling */
+h1 {
+    text-align: center;
+    color: #0f172a;
+    font-size: 36px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #2563eb;
+}
+
+h2 {
+    color: #1d4ed8;
+    font-size: 26px;
+    margin: 45px 0 20px 0;
+    border-left: 5px solid #2563eb;
+    padding-left: 15px;
+}
+
+h3 {
+    color: #334155;
+    font-size: 22px;
+    margin: 25px 0 15px 0;
+}
+
+/* Paragraph Text Formatting */
+p {
+    font-size: 17px;
+    color: #334155;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+/* Section Container Design */
+section {
+    background-color: #ffffff;
+    padding: 30px 35px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for each section card */
+section:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+
+/* Unordered List for Exercise Links */
+ul {
+    margin: 20px 0 20px 40px;
+}
+
+li {
+    font-size: 17px;
+    margin: 12px 0;
+    padding: 8px 10px;
+    transition: background 0.2s ease;
+}
+
+li:hover {
+    background-color: #eff6ff;
+    border-radius: 6px;
+}
+
+/* Hyperlink Styling */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 5px;
+    transition: all 0.25s ease;
+}
+
+a:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Certificate Image Styling */
+.certificate-img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 25px auto;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.cert-heading {
+    color: #0369a1;
+}
+
+/* Back Navigation Link */
+body > a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+}
+
+body > a:hover {
+    background-color: #1d4ed8;
+}
+
+/* Mobile Responsive Adjustment */
+@media (max-width: 768px) {
+    body {
+        padding: 15px 20px;
+    }
+    .certificate-img {
+        width: 100%;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
